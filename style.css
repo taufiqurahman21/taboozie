@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar .nav-link {
+    color: #555;
+    font-weight: 500;
+}
+
+/* Menambahkan jarak antar item di navbar */
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Atur jarak antar item sesuai kebutuhan */
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0; /* Hilangkan margin kiri pada item pertama */
+}
+
+
+.navbar .btn-primary {
+    background-color: #6355f6;
+    border-color: #6355f6;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #d5f4a5; /* Light green background */
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 10px solid #ffffff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #5b55f7; /* Purple color for title */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero .tagline {
+    font-size: 1.5rem;
+    color: #7649f8; /* Matching tagline color */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero .description {
+    font-size: 1rem;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.hero .btn-outline-primary {
+    color: #7649f8;
+    border-color: #7649f8;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.hero .btn-outline-primary:hover {
+    background-color: #7649f8;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #888;
+    padding: 15px 0;
+    border-top: 2px solid #ddd;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+/* Partnership Section */
+#partners img {
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+/* Product Section */
+#products .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6355f6;
+    margin: 10px 0;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-us .btn-success {
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
