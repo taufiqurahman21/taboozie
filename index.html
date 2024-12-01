@@ -12,16 +12,26 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="asset\Taboozy-removebg-preview.png" alt="Taboozie Logo" style="height: 40px;"> 
+                <img src="asset/Taboozy-removebg-preview.png" alt="Taboozie Logo" style="height: 40px;"> 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <!-- Dropdown for Products -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="#products">Buy Products</a></li>
+                            <li><a class="dropdown-item" href="product.html">Card Information</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="btn btn-primary rounded-pill" href="#">Login</a></li>
                 </ul>
             </div>
@@ -32,7 +42,7 @@
     <section class="hero text-center text-white d-flex align-items-center">
         <div class="container">
             <h1 class="display-3"><img src="asset\Taboozy-removebg-preview.png" alt="Taboozie Logo" style="height: 300px;"></h1>
-            <p class="tagline">Turning Taboo into Treasures</p>
+            <p class="tagline">There's No Such Thing As Taboo!</p>
             <p class="description">Taboozie is the ultimate tool for parents and educators to introduce kids to vital topics like boundaries and body awareness. Through interactive gamified card linked to a digital content, we create a safe space to foster healthy conversations and lifelong understanding
             </p>
             <a href="#products" class="btn btn-outline-primary rounded-pill">Our Product</a>
@@ -97,7 +107,7 @@
                             <p>Turn curiosity into confidence with Taboozie for Kids! Our colorful card games introduce essential topics like boundaries, body safety, and self-respect in a fun, interactive way. Starting at just $5.99, learning for kids has never been this engaging!"
                             </p>
                             <h3><img src="asset\First Set.png" style="height: 400px;"></h3>
-                            <p class="price">$5.99</p>
+                            <p class="price">$11.99</p>
                             <button class="btn btn-primary rounded-pill">Buy Now</button>
                         </div>
                     </div>
@@ -116,6 +126,42 @@
             </div>
         </div>
     </section>
+
+    <!-- FAQ Section -->
+<section id="faq" class="container py-5">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="faq-item">
+                <h5>What is Taboozie?</h5>
+                <p>Taboozie is an educational card game designed to teach kids and teens about important topics like body safety, boundaries, gender awareness, and relationships in a fun and interactive way.</p>
+            </div>
+            <div class="faq-item">
+                <h5>Who is Taboozie for?</h5>
+                <p>Taboozie is made for kids aged 5-12 and teens aged 13-19. We also encourage parents, teachers, and schools to use it as a tool for open conversations about sensitive topics.</p>
+            </div>
+            <div class="faq-item">
+                <h5>How does Taboozie work?</h5>
+                <p>Taboozie includes a deck of cards with educational prompts, activities, and QR codes that link to detailed content on our website. Players can learn through fun games, trivia, and discussions guided by the cards.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="faq-item">
+                <h5>Why is Taboozie important?</h5>
+                <p>Taboozie helps address the lack of sexual education in schools and encourages open conversations about topics that are often considered taboo, empowering children and teens with knowledge to make safe and informed decisions.</p>
+            </div>
+            <div class="faq-item">
+                <h5>Where can I buy Taboozie?</h5>
+                <p>You can purchase Taboozie through our website, e-commerce platforms like Shopee and Tokopedia, or at participating bookstores and community events.</p>
+            </div>
+            <div class="faq-item">
+                <h5>How much does Taboozie cost?</h5>
+                <p>Taboozie for Kids starts at $11.99, and Taboozie for Teens is coming soon. Bundle offers and discounts are also available during special promotions!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- Contact Us Section -->
     <section class="contact-us py-5 bg-light">
