@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar .nav-link {
+    color: #555;
+    font-weight: 500;
+}
+
+/* Menambahkan jarak antar item di navbar */
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Atur jarak antar item sesuai kebutuhan */
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0; /* Hilangkan margin kiri pada item pertama */
+}
+
+
+.navbar .btn-primary {
+    background-color: #6355f6;
+    border-color: #6355f6;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #4c4c4c;
+}
+.product-title {
+    color: #8048b3;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.product-description {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.audio-player {
+    margin: 20px 0;
+}
+.image-container img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.related-images img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.back-button {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.back-button:hover {
+    color: #8048b3;
+}
