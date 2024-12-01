@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-product.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="asset/Taboozy-removebg-preview.png" alt="Taboozie Logo" style="height: 40px;"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about-us">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#partners">Partners</a></li>
+                    <!-- Dropdown for Products -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="index.html#products">Buy Products</a></li>
+                            <li><a class="dropdown-item" href="product.html">Card Information</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="btn btn-primary rounded-pill" href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <!-- Back Button -->
+        <a href="index.html" class="back-button">&larr;</a>
+
+        <div class="row align-items-center">
+            <!-- Left Section -->
+            <div class="col-md-6 image-container">
+                <img src="asset\Taboozie-Card.png" alt="Product Image" class="img-fluid">
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-md-6">
+                <h1 class="product-title">No To Strangers</h1>
+                <p class="product-description">
+                    The instruction "Hold up your hand and say 'No' 3 times if a stranger asks you to do something you don't like!" is designed to give children a simple yet effective tool to reject unwanted requests from strangers. By raising their hand, children signal a clear, visual boundary, asserting their discomfort or refusal. Saying "No" three times gives them the time to strengthen their resolve and make a firm statement, signaling to others around them that they are uncomfortable. This approach is easy to remember and practice, helping children feel empowered in situations that may be confusing or frightening. It also encourages the development of a vital skill: the ability to say "no" firmly, which is an important first step in protecting themselves from unsafe situations.                </p>
+                <!-- Audio Player -->
+                <div class="audio-player">
+                    <audio controls id="audio-description">
+                        <source src="audio/description.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Images -->
+        <div class="row mt-5 related-images">
+            <div class="col-4"><img src="asset\no1.jpg" alt="Related Image" style="height: 300px;"></div>
+            <div class="col-4"><img src="asset\no2.jpg" alt="Related Image" style="height: 300px;"></div>
+            <div class="col-4"><img src="asset\no3.jpg" alt="Related Image" style="height: 300px;"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
